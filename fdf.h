@@ -6,7 +6,7 @@
 /*   By: cgleason <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/08/05 19:54:12 by cgleason          #+#    #+#             */
-/*   Updated: 2018/08/30 21:28:10 by cgleason         ###   ########.fr       */
+/*   Updated: 2018/09/23 22:24:44 by cgleason         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,9 @@
 # define MIN(x1, x2) (((x1) < (x2)) ? x1 : x2)
 # define MAX(x1, x2) (((x1) < (x2)) ? x2 : x1)
 
-# define PI 3.14159265358979
-# define C1 0x00001188
-# define C2 0x00008811
+# define PI M_PI
+# define C1 0x0034675C
+# define C2 0x00B7B8B6
 
 # define THETA_0 (PI / 3)
 # define PHI_0 (PI / 6)
